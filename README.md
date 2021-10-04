@@ -116,12 +116,12 @@ Writing to: minimal_AutomationMLComponent_WithDocuments/files/TestTXTWarranty.tx
 
 ## Validation
 ### AML files
-AML file validation includes the following steps (cf. [_AmlValidator.java_](https://github.wdf.sap.corp/AAS/aml-transformation-module/blob/develop/src/main/java/com/sap/dsc/aas/lib/aml/transform/validation/AmlValidator.java)):
+AML file validation includes the following steps (cf. [_AmlValidator.java_](https://github.com/alw-iwu/aas-transformation-library/blob/main/src/main/java/com/sap/dsc/aas/lib/aml/transform/validation/AmlValidator.java)):
 - Check that the AML file is a valid XML file
-- Check that the AML file is valid according to the [CAEX 3.0 class model](https://github.wdf.sap.corp/AAS/aml-transformation-module/blob/develop/src/main/resources/aml/CAEX_ClassModel_V.3.0.xsd)
+- Check that the AML file is valid according to the [CAEX 3.0 class model](https://github.com/alw-iwu/aas-transformation-library/blob/main/src/main/resources/aml/CAEX_ClassModel_V.3.0.xsd)
 
 ### AMLX files
-AMLX file validation includes the following steps (cf. [_AmlxValidator.java_](https://github.wdf.sap.corp/AAS/aml-transformation-module/blob/develop/src/main/java/com/sap/dsc/aas/lib/aml/amlx/AmlxValidator.java)):
+AMLX file validation includes the following steps (cf. [_AmlxValidator.java_](https://github.com/alw-iwu/aas-transformation-library/blob/main/src/main/java/com/sap/dsc/aas/lib/aml/amlx/AmlxValidator.java)):
 - Check whether each document defined in */_rels/.rels* exists
 - Check whether each file in the AMLX file (a ZIP archive) is defined in */_rels/.rels*
 - Check that the root document exists
@@ -749,4 +749,4 @@ Everyone participating in this joint project is welcome as long as our [Code of 
 Many improvements are coming! All tasks will be posted to our GitHub issue tracking system. As mentioned, some of the improvements will mean breaking changes. While we strive to avoid doing so, we cannot guarantee this will not happen before the first release.
 
 ## License
-Copyright 2021 SAP SE or an SAP affiliate company and aas-transformation-library contributors. Please see our [LICENSE](LICENSE.md) for copyright and license information. Detailed information including third-party components and their licensing/copyright information is available via the [REUSE tool](https://api.reuse.software/info/github.com/SAP/aas-transformation-library).
+Copyright 2021 SAP SE or an SAP affiliate company and aas-transformation-library contributors. Please see our [LICENSE](https://github.com/alw-iwu/aas-transformation-library/blob/main/LICENSES/Apache-2.0.txt) for copyright and license information. Detailed information including third-party components and their licensing/copyright information is available via the [REUSE tool](https://api.reuse.software/info/github.com/SAP/aas-transformation-library).
